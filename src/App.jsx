@@ -6,7 +6,7 @@ function App(){
   const [products, setProducts]= useState([ 
     {id: 1, name: 'Book on Flags', price: '$40', description: 'A book with information about the flags of the world' },
     {id: 2, name: 'Map', price: '$60', description: 'A 48x72 world map to hang in your room' },
-    {id: 3, name: 'Globe', price: '$70', description: 'A nice globe  ' },
+    {id: 3, name: 'Globe', price: '$70', description: 'A nice globe to decorate your room' },
   ]);
 
 const [nextId, setNextId]= useState(4); // I have listed 3 products, so when entering the next product it will start at 4
